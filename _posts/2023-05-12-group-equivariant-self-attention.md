@@ -3,7 +3,7 @@ layout: post
 title: Constructing Group Equivariant Self-Attention
 date: 2023-05-12 15:53:00-0400
 description: Injecting Geometric Priors into the Transformer Model
-tags: self-attention transformer geometric deep learning
+tags: self-attention transformer geometric-deep-learning
 categories: blog-post
 giscus_comments: true
 related_posts: true
@@ -32,7 +32,7 @@ In the following, we will extend this concept by using group theory to induce ge
 
 Group Theory has a rich history with contributions from a variety of fields. CITE MICHAEL BRONSTEIN HERE.
 Let us define a group as follows. 
-A group is a set G along with a binary operation ◦ : G × G → G called composition (for brevity we write gh instead of g ◦ h) satisfying the following axioms:
+A group is a set $\mathfrak{G}$ along with a binary operation ◦ : G × G → G called composition (for brevity we write gh instead of g ◦ h) satisfying the following axioms:
 - Associativity: (gh)k = g(hk) for all g, h, k ∈ G.
 - Identity: there exists a unique e ∈ G satisfying eg = ge = g for all g ∈ G.
 - Inverse: For each g∈G there is a unique inverse g⁻¹∈G s.t. gg⁻¹ = g⁻¹g = e.
