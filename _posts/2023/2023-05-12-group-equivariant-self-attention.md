@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Constructing Group Equivariant Self-Attention
+title: Constructing Strictly Group Equivariant Self-Attention
 date: 2023-05-12 15:53:00-0400
 description: Injecting Geometric Priors into the Transformer Model
 giscus_comments: true
@@ -32,9 +32,9 @@ In the following, we will extend this concept by using group theory to induce ge
 
 Group Theory has a rich history with contributions from a variety of fields. CITE MICHAEL BRONSTEIN HERE.
 Let us define a group as follows. 
-A group is a set $$\mathfrak{G}$$ along with a binary operation ◦ : G × G → G called composition (for brevity we write gh instead of g ◦ h) satisfying the following axioms:
-- Associativity: (gh)k = g(hk) for all g, h, k ∈ G.
-- Identity: there exists a unique e ∈ G satisfying eg = ge = g for all g ∈ G.
+A group is a set $$\mathfrak{G}$$ along with a binary operation $$\circ : \mathfrak{G} × \mathfrak{G} \rightarrow \mathfrak{G}$$ called composition (for brevity we write $$\mathfrak{g} \mathfrak{h}$$ instead of $$\mathfrak{g} \circ \mathfrak{h}$$) satisfying the following axioms:
+- Associativity: $$(\mathfrak{g} \mathfrak{h})\mathscr{k} = \mathfrak{g}(\mathfrak{h}\mathscr{k})$$ for all $$\mathfrak{g}, \mathfrak{h}, \mathscr{k} \in \mathfrak{G}$$.
+- Identity: there exists a unique $$\mathfrak{e} \in \mathfrak{G}$$ satisfying $$\mathfrak{e}\mathfrak{g} = \mathfrak{g}\mathfrak{e} = \mathfrak{g}$$ for all $$\mathfrak{g} \in \mathfrak{G}$$.
 - Inverse: For each g∈G there is a unique inverse g⁻¹∈G s.t. gg⁻¹ = g⁻¹g = e.
 - Closure: The group is closed under composition, i.e., for every g, h ∈ G, we have gh ∈ G.
 Note that if additionally commutativity holds, then our group is called an Abelian group.
