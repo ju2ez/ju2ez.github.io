@@ -32,10 +32,19 @@ In the following, we will extend this concept by using group theory to induce ge
 
 Group Theory has a rich history with contributions from a variety of fields. CITE MICHAEL BRONSTEIN HERE.
 Let us define a group as follows. 
-A group is a set $$\mathfrak{G}$$ along with a binary operation $$\circ : \mathfrak{G} × \mathfrak{G} \rightarrow \mathfrak{G}$$ called composition (for brevity we write $$\mathfrak{g} \mathfrak{h}$$ instead of $$\mathfrak{g} \circ \mathfrak{h}$$) satisfying the following axioms:
+A group is a set $\mathfrak{G}$ along with a binary operation $\circ : \mathfrak{G} × \mathfrak{G} \rightarrow \mathfrak{G}$ called composition (for brevity we write $\mathfrak{g} \mathfrak{h}$ instead of $\mathfrak{g} \circ \mathfrak{h}$ satisfying the following axioms:
 - Associativity: $$(\mathfrak{g} \mathfrak{h})\mathscr{k} = \mathfrak{g}(\mathfrak{h}\mathscr{k})$$ for all $$\mathfrak{g}, \mathfrak{h}, \mathscr{k} \in \mathfrak{G}$$.
 - Identity: there exists a unique $$\mathfrak{e} \in \mathfrak{G}$$ satisfying $$\mathfrak{e}\mathfrak{g} = \mathfrak{g}\mathfrak{e} = \mathfrak{g}$$ for all $$\mathfrak{g} \in \mathfrak{G}$$.
-- Inverse: For each g∈G there is a unique inverse g⁻¹∈G s.t. gg⁻¹ = g⁻¹g = e.
+- Inverse: For each g∈G there is a unique inverse $g^{-1}\mathfrak{G} \text{s.t.} gg^{-1} = g^{-1}g = e$.
 - Closure: The group is closed under composition, i.e., for every g, h ∈ G, we have gh ∈ G.
 Note that if additionally commutativity holds, then our group is called an Abelian group.
-Group Equivariant Stand-Alone Self-Attention
+Group Equivariant Stand-Alone Self-Attention.
+
+
+```python
+import transformers
+
+
+def f(x):
+	return 3x
+```
