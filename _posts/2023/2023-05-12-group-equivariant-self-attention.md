@@ -5,6 +5,9 @@ date: 2023-05-12 15:53:00-0400
 description: Injecting Geometric Priors into the Transformer Model
 giscus_comments: true
 related_posts: true
+tags:
+  - transformer
+  - geometric-deep-learning
 ---
 In the following , we will see the benefits of injecting geometric priors into the transformer model.
 The approach we discuss is based on this paper of David Romero et al.
@@ -52,4 +55,6 @@ Explain why are they cool :-).
 #### Group Equivariant Convolutional Neural Networks 
 
 #### Group Equivariant Self-Attention 
+
+A bite more context. 
 
