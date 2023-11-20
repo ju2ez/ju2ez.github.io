@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c84f39061d57e0b5",
+            "id": "dd89ddc664a77596",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023/2023-05-12-group-equivariant-self-attention.md",
+                "file": "_drafts/group-equivariant-self-attention.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023/2023-05-12-group-equivariant-self-attention.md",
+                "file": "_drafts/group-equivariant-self-attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023/2023-05-12-group-equivariant-self-attention.md",
+                "file": "_drafts/group-equivariant-self-attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023/2023-05-12-group-equivariant-self-attention.md"
+                "file": "_drafts/group-equivariant-self-attention.md"
               }
             }
           }
@@ -134,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,15 +147,20 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "8c29e2fc0bb30dbc",
+  "active": "02ce7242b17f8e16",
   "lastOpenFiles": [
+    "_drafts",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "_drafts/group-equivariant-self-attention.md",
+    "Untitled 6.canvas",
+    "2023-11-19.md",
+    "reports/psresultdesktop.svg",
+    "Untitled 5.canvas",
     "Untitled 4.canvas",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
-    "Untitled 1.canvas",
-    "_posts/2023/2023-05-12-group-equivariant-self-attention.md",
     "2023-11-18.md",
-    "Untitled.canvas",
     "2023-11-17.md"
   ]
 }
