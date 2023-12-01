@@ -51,6 +51,7 @@ In the following, we will extend this concept by using group theory to induce ge
 ## Group Equivariant Networks
 
 Explain why are they cool :-).
+
 $$ x = 5$$
 
 test
