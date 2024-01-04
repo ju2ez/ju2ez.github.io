@@ -24,12 +24,12 @@ To this end we will go through the following concepts:
 
 Note that this article is suppoused to be a technical deep dive - please find [..] for a higher level overview.
 
-### Motivation
+## Motivation
 Even though the application of transformers in the vision domain shows promising results, they still can not compete with the best performing models of the domain, which are mainly based on CNNs.
 One reason is that CNNs have a natural geometric prior, that is translation equivariance. Further, they are already extended by using group theory. See for example group convolution.
 A natural idea would be to inject those same geometric priors into the self-attention operation of the transformer. Luckily, this is possible, and in this article we will figure out how.
 
-## Convolutional Neural Networks and Self-Attention Networks
+### Convolutional Neural Networks and Self-Attention Networks
 
 Both, Convolutional Neural Networks (CNNs) and Self-Attention Networks - that appear often in the form of Vision Transformers (ViT) - are successful neural architectures in the fields of computer vision, natural language processing and beyond.
 
@@ -128,3 +128,5 @@ Remember that self-attention is defined as $$\text{self-attention}(q,k,v) = \tex
 Further, group equivariant self-attention is defined as..
 
 ![Group Equivariant Self-Attention](../assets/img/group_equivariant_self_attention/lifting_sa.png)*Lifting Self-Attention for the group of 90-degree rotations $$C_4$$.*
+
+More changes.
