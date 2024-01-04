@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5feb312811cb07c9",
@@ -134,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,10 +151,12 @@
   },
   "active": "02ce7242b17f8e16",
   "lastOpenFiles": [
+    "_drafts/quantum.md",
+    "_drafts/group-equivariant-self-attention.md",
+    "_drafts/knowledge-distillation.md",
     "_drafts",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "_drafts/group-equivariant-self-attention.md",
     "Untitled 6.canvas",
     "2023-11-19.md",
     "reports/psresultdesktop.svg",

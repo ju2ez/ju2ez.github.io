@@ -38,7 +38,8 @@
     "_posts/2023": {
       "profile": "English",
       "theoremCalloutStyle": "Custom"
-    }
+    },
+    "_drafts/group-equivariant-self-attention.md": {}
   },
   "extraSettings": {
     "noteTitleInLink": true,

@@ -1,5 +1,4 @@
 _site
-_drafts
 .bundle
 .sass-cache
 .jekyll-cache
@@ -9,4 +8,3 @@ _drafts
 .tweet-cache
 Gemfile.lock
 vendor
-

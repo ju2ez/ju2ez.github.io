@@ -3,3 +3,8 @@
         "equivariance"
     ]
 }
+
+{
+  "vim.leader": "<space>",
+  "vim.easymotion": true
+}
