@@ -1,4 +1,6 @@
 _site
+_drafts
+!_drafts/wip/*
 .bundle
 .sass-cache
 .jekyll-cache
