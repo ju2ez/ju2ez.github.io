@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ju2ez.github.io/sitemap.xml
+Sitemap: https://alshedivat.github.io/al-folio/sitemap.xml
