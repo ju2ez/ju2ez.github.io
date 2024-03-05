@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ju2ez.github.io/blog/sitemap.xml
+Sitemap: https://ju2ez.github.io/sitemap.xml
