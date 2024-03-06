@@ -503,18 +503,6 @@ footer.sticky-bottom {
 
 // Blog
 
-.header-bar {
-  border-bottom: 1px solid var(--global-divider-color);
-  text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-
-  h1 {
-    color: var(--global-theme-color);
-    font-size: 5rem;
-  }
-}
-
 .tag-category-list {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
@@ -571,6 +559,11 @@ footer.sticky-bottom {
       &:hover {
         color: var(--global-theme-color);
       }
+    }
+
+    // don't include images
+    img {
+      display: none;
     }
 
     mjx-container[jax="CHTML"][display="true"] {
@@ -878,7 +871,6 @@ html.transition *:after {
     font-size: 0.875rem;
     padding-top: 0.25rem;
     padding-bottom: 1rem;
-
     a {
       color: var(--global-text-color-light);
       text-decoration: none;
