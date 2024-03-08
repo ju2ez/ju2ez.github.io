@@ -1,11 +1,11 @@
 ---
 layout: default
-permalink: /
-title: blog
+permalink: /scratchpad/
+title: scratchpad
 nav: true
 nav_order: 1
 pagination:
-  enabled: true
+  enabled: false
   collection: posts
   permalink: /page/:num/
   per_page: 10
@@ -21,7 +21,9 @@ pagination:
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}
 
-
+  <div class="header-bar">
+    <h2>Some drafts, ideas and work in progress.</h2>
+  </div>
 {% if site.display_tags or site.display_categories %}
 
   <div class="tag-category-list">
@@ -97,12 +99,10 @@ pagination:
 
     {% for post in postlist %}
     {% if post.categories contains "scratchpad" %}
-      {% continue %}
-    {% else %}
+
       {% assign year = post.date | date: "%Y" %}
       {% assign tags = post.tags | join: "" %}
       {% assign categories = post.categories | join: "" %}
-
 
     <li>
 

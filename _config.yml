@@ -171,6 +171,11 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  scratchpad:
+    defaults:
+      layout: post
+    output: true
+    permalink: /scratchpad/:path/
 
 announcements:
   enabled: true
@@ -273,7 +278,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags:  # these tags will be displayed on the front page of your blog
-display_categories:  # these categories will be displayed on the front page of your blog
+display_categories: # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
