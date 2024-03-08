@@ -6,6 +6,7 @@ img: assets/img/3.jpg
 importance: 1
 category: deep learning
 giscus_comments: true
+published: false
 ---
 
 Every project has a beautiful feature showcase page.

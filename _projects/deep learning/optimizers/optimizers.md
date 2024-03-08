@@ -2,10 +2,11 @@
 layout: page
 title: Optimizers
 description: Optimizers in Deep Learning
-img: assets/img/12.jpg
+img: assets/img/deep_learning/optimizers.png
 importance:
 category: deep learning
 related_publications: true
+published: false
 ---
 
 {:toc}
