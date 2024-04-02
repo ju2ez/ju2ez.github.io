@@ -40,7 +40,9 @@ Test inline math: $$ 4x + 3 = 5 $$. This should be inline.
 
 
 This
+
 $$
  x = 1/2
 $$
+
 not.
