@@ -38,7 +38,6 @@ Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan c
 
 Test inline math: $$ 4x + 3 = 5 $$. This should be inline.
 
-
 This
 
 $$

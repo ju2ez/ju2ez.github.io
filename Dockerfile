@@ -9,6 +9,7 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
     ruby-full \
     build-essential \
     zlib1g-dev \
+    git \
     jupyter-nbconvert \
     inotify-tools procps && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
@@ -32,7 +33,11 @@ ADD Gemfile /srv/jekyll
 
 WORKDIR /srv/jekyll
 
+RUN gem install specific_install
+RUN gem specific_install https://github.com/ju2ez/jekyll-jupyter-notebook.git
 RUN bundle install --no-cache
+
+
 # && rm -rf /var/lib/gems/3.1.0/cache
 EXPOSE 8080
 
