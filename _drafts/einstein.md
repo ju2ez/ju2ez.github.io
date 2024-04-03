@@ -50,7 +50,6 @@ Rearrange can be used to change the order of dimensions in a tensor. For instanc
 {% endif %}
 {:/nomarkdown}
 
-
 ### Deep Learning Applications
 
 We can use the einops library to manipulate tensors for various deep learning applications and architecture. In this article I would like to introduce you to the dot product and to the self-attention operation of the transformer model.
