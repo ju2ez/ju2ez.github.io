@@ -1,47 +1,21 @@
 ---
 layout: post
 title: adam vs adamW
-date: 2024-03-06 16:40:16
+date: 2024-04-04 14:10:00
 description: the difference between adam and adamW
-tags: deep-learning optimizers
+tags:
+  - deep-learning
+  - optimizers
 categories: scratchpad
+published: false
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. [Pinterest](https://www.pinterest.com) DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+Adam is a popular optimizer in deep learning. It is an adaptive learning rate optimization algorithm that is designed to combine the advantages of two other extensions of stochastic gradient descent: AdaGrad and RMSProp. Adam stands for Adaptive Moment Estimation, and it is introduced by Kingma and Ba in their paper [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980).
 
-#### Hipster list
+It is hugely popular in the deep learning community because it is computationally efficient, has little memory requirements, is invariant to diagonal rescaling of the gradients, and is well suited for problems that are large in terms of data and/or parameters. However, it is proposed with a wrong formulation of weight decay, which is corrected in the AdamW optimizer.
 
-- brunch
-- fixie
-- raybans
-- messenger bag
+### Stochastic Gradient Descent
 
-#### Check List
-
-- [x] Brush Teeth
-- [ ] Put on socks
-  - [x] Put on left sock
-  - [ ] Put on right sock
-- [x] Go to school
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
-<hr>
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+To get the full picture of what AdamW improves, it is useful to recapture the stochastic gradient descent algorithm. The stochastic gradient descent algorithm is a simple optimization algorithm that is used to minimize a function. It works by iteratively moving in the direction of the negative gradient of the function at the current point. The negative gradient points in the direction of the steepest descent, and moving in this direction will decrease the value of the function.
 
 
-Test inline math: $$ 4x + 3 = 5 $$. This should be inline.
-
-This
-
-$$
- x = 1/2
-$$
-
-not.
