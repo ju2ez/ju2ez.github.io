@@ -22,6 +22,8 @@ $$
 y = c_i x^i
 $$
 
+Inline math should also work: $y = c_i x^i$.
+
 This leaves us with a much shorter equation.
 
 Now let us see how we can use this convention to do the tensor manipulation we typically need in Deep Learning.

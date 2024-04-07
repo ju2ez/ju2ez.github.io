@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/daily_notes/2024-04-06.md",
+                "file": "_drafts/daily_notes/2024-04-07.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,11 +22,11 @@
         ]
       },
       {
-        "id": "eac8c94d6626c437",
+        "id": "1c4284811b5fc130",
         "type": "tabs",
         "children": [
           {
-            "id": "2da00265edd44551",
+            "id": "f7e75476e5cc37e2",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ca90675c8b612979",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/daily_notes/2024-04-06.md",
+                "file": "_drafts/daily_notes/2024-04-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/daily_notes/2024-04-06.md",
+                "file": "_drafts/daily_notes/2024-04-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/daily_notes/2024-04-06.md"
+                "file": "_drafts/daily_notes/2024-04-07.md"
               }
             }
           }
@@ -166,6 +165,13 @@
   "active": "5e20c2391b3b11fc",
   "lastOpenFiles": [
     "_projects/deep learning/transformers/presentations/Introduction To Transformers Slides.md",
+    "_drafts/daily_notes/2024-04-07.md",
+    "logseq/custom.css",
+    "pages/contents.md",
+    "pages",
+    "journals",
+    "logseq/config.edn",
+    "logseq",
     "_drafts/daily_notes/2024-04-06.md",
     "_drafts/test_presentation/another_layout.md",
     "_drafts/test_presentation/test_slide.md",
