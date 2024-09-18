@@ -1,0 +1,15 @@
+---
+layout: post
+title: Grokking Einstein Summation for Efficient and Readable Tensor Manipulation
+date: 2024-09-18 14:10:00
+description: the difference between adam and adamW
+tags:
+  - deep-learning
+  - framework
+  - einops
+categories: blogpost
+published: false
+---
+
+
+This is a test.
