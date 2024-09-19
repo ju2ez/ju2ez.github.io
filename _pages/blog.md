@@ -22,6 +22,8 @@ pagination:
 {% assign blog_description_size = site.blog_description | size %}
 
 
+![Image](/assets/analytic_OLS.gif)
+
 {% if site.display_tags or site.display_categories %}
 
   <div class="tag-category-list">
