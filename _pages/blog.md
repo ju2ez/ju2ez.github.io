@@ -20,9 +20,7 @@ pagination:
 
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}
-
-
-<img src="/assets/analytic_OLS.gif", alt="">
+<img src="/assets/img/analytic_OLS.gif", alt="">
 
 {% if site.display_tags or site.display_categories %}
 
