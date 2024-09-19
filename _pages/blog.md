@@ -22,7 +22,7 @@ pagination:
 {% assign blog_description_size = site.blog_description | size %}
 
 
-![Image](/assets/analytic_OLS.gif)
+<img src="{{site.baseurl}}/assets/analytic_OLS.gif">
 
 {% if site.display_tags or site.display_categories %}
 
