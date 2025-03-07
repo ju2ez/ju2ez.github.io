@@ -27,10 +27,7 @@ In the end we have a controller that can switch between two brains. One brain th
   Your browser does not support the video tag.
 </video>
 
-
-You can see the results that enables the robot to chase after its target. First it rotates to find it, then it moves straight towards it.
-Moreover, in the second video, we demonstrate that this approach can be extended to look for and chase multiple targets.
-
+The controller, which alternates between two brain states based on the robot's orientation relative to the target, allows the robot to effectively chase its target. Initially, it rotates to locate the target, then moves directly towards it. Additionally, in the second video, we showcase how this approach can be extended to allow the robot to search for and chase multiple targets.
 
 ## Why this might be relevant?
 
@@ -38,8 +35,6 @@ Being able to achieve a more complex chain of actions to solve certain tasks is 
 For the robot, we mimik the behaviour to look for and move towards an object that could be a battery charger.
 
 Having energy is crucial for the robot to survive.
-
-
 
 ## The approach
 
