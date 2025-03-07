@@ -34,6 +34,14 @@ table {
   }
 }
 
+th{
+  border:2px solid #000000;
+}
+
+td{
+  border:1px solid #000000;
+}
+
 a,
 table.table a {
   color: var(--global-theme-color);
@@ -382,7 +390,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3rem;
 
     a {
       i::before {
