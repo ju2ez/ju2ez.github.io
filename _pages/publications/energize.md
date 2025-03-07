@@ -91,4 +91,3 @@ The trajectories are of a single robot morphology, with its best-learned rotatio
 We have shown that it is possible to evolve a robot that can perform two tasks effectively.
 The robot can rotate and move forward on a straight line.
 This is achieved by evolving the robot morphology and brain together with NSGA2 and then evolving two seperate brains for either task.
-
