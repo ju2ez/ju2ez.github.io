@@ -84,7 +84,7 @@ Since the robot emerged to do both tasks, one observation is that during the lea
 
 <img src="../assets/img/beyblade/trajectory.png" alt="trajectory" width="800" height="400"/>
 
-The trajectories are of a single robot morphology, with its best-learned rotation and follow target brains, starting at coordinates (0,0). The dark blue line is the average trajectory of the 30 runs and the other blue lines are the individual runs. The left Figure is in a two target environment and the right Figure is in a one target environment.
+The trajectories are of a single robot morphology, with its best-learned rotation and follow target brains, starting at coordinates (0,0). The dark blue line is the average trajectory of the 30 runs and the other blue lines are the individual runs. The left Figure is in a one target environment and the right Figure is in a two targets environment.
 
 ## Conclusion
 
