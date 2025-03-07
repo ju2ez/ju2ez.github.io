@@ -10,7 +10,7 @@ published: true
 
 # A Multi-brain Approach for Multiple Tasks in Evolvable Robots
 
-[Our paper](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MIqK3DgAAAAJ&citation_for_view=MIqK3DgAAAAJ:d1gkVwhDpl0C) discusses the idea of evolving body and brain for two tasks: rotation and moving forward on a straight line.
+[Our paper](https://link.springer.com/chapter/10.1007/978-3-031-30229-9_9) discusses the idea of evolving body and brain for two tasks: rotation and moving forward on a straight line.
 We can combine these two actions to give the robot the ability to search for a target by rotating, and then to move to it.
 
 ## How does the result look like?
